@@ -1,0 +1,31 @@
+﻿  Compiling CUDA source file ..\..\..\Common\Common\GPUErrors.cu...
+  Compiling CUDA source file WithDefaultStream.cu...
+  Compiling CUDA source file WithExplicitStream.cu...
+  Compiling CUDA source file Addition.cu...
+  
+  
+  D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\x64\Debug\WithExplicitStream.cu.obj "D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\WithExplicitStream.cu" 
+  D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\x64\Debug\Addition.cu.obj "D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\Addition.cu" 
+  
+  D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\x64\Debug\WithDefaultStream.cu.obj "D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\WithDefaultStream.cu" 
+  
+  D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\x64\Debug\GPUErrors.cu.obj "D:\Varun_GPGPU\Common\Common\GPUErrors.cu" 
+D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\WithExplicitStream.cu(10): warning #549-D: variable "prop" is used before its value is set
+  
+D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\WithExplicitStream.cu(30): warning #549-D: variable "h_C_CPU" is used before its value is set
+  
+  GPUErrors.cu
+D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\WithExplicitStream.cu(10): warning #549-D: variable "prop" is used before its value is set
+  
+D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\WithExplicitStream.cu(30): warning #549-D: variable "h_C_CPU" is used before its value is set
+  
+  Addition.cu
+  WithExplicitStream.cu
+  WithDefaultStream.cu
+D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\WithExplicitStream.cu(10): warning C4700: uninitialized local variable 'prop' used
+D:\Varun_GPGPU\SingleStream\SingleStream\SingleStream\WithExplicitStream.cu(30): warning C4700: uninitialized local variable 'h_C_CPU' used
+  CPUAddition.cpp
+  functions.cpp
+  VectorAddition.cpp
+  Generating Code...
+  SingleStream.vcxproj -> D:\Varun_GPGPU\SingleStream\SingleStream\x64\Debug\SingleStream.exe
