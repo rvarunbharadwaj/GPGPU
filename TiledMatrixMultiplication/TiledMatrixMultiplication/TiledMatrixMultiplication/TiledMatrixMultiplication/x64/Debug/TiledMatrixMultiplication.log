@@ -1,0 +1,25 @@
+﻿  Compiling CUDA source file ..\..\..\Common\Common\GPUErrors.cu...
+  Compiling CUDA source file MatrixMultGPU.cu...
+  
+  D:\Varun_GPGPU\TiledMatrixMultiplication\TiledMatrixMultiplication\TiledMatrixMultiplication>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\Varun_GPGPU\TiledMatrixMultiplication\TiledMatrixMultiplication\TiledMatrixMultiplication\x64\Debug\MatrixMultGPU.cu.obj "D:\Varun_GPGPU\TiledMatrixMultiplication\TiledMatrixMultiplication\TiledMatrixMultiplication\MatrixMultGPU.cu" 
+  
+  D:\Varun_GPGPU\TiledMatrixMultiplication\TiledMatrixMultiplication\TiledMatrixMultiplication>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\Varun_GPGPU\TiledMatrixMultiplication\TiledMatrixMultiplication\TiledMatrixMultiplication\x64\Debug\GPUErrors.cu.obj "D:\Varun_GPGPU\Common\Common\GPUErrors.cu" 
+  GPUErrors.cu
+  MatrixMultGPU.cu
+D:\Varun_GPGPU\TiledMatrixMultiplication\TiledMatrixMultiplication\TiledMatrixMultiplication\MatrixMultGPU.cu(97): warning C4244: '=': conversion from '_Rep' to 'double', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Varun_GPGPU\TiledMatrixMultiplication\TiledMatrixMultiplication\TiledMatrixMultiplication\MatrixMultGPU.cu(114): warning C4244: '=': conversion from '_Rep' to 'double', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  functions.cpp
+D:\Varun_GPGPU\TiledMatrixMultiplication\TiledMatrixMultiplication\TiledMatrixMultiplication\functions.cpp(11,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Varun_GPGPU\TiledMatrixMultiplication\TiledMatrixMultiplication\TiledMatrixMultiplication\functions.cpp(50,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+  MatrixMult.cpp
+  MatrixMultCPU.cpp
+  Generating Code...
+  TiledMatrixMultiplication.vcxproj -> D:\Varun_GPGPU\TiledMatrixMultiplication\TiledMatrixMultiplication\x64\Debug\TiledMatrixMultiplication.exe
