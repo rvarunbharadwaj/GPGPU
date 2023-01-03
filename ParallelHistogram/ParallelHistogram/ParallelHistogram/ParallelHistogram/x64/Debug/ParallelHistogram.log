@@ -1,0 +1,23 @@
+﻿  Compiling CUDA source file ParallelHistogramGPU.cu...
+  Compiling CUDA source file ..\..\..\Common\Common\GPUErrors.cu...
+  
+  D:\Varun_GPGPU\ParallelHistogram\ParallelHistogram\ParallelHistogram>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\Varun_GPGPU\ParallelHistogram\ParallelHistogram\ParallelHistogram\x64\Debug\ParallelHistogramGPU.cu.obj "D:\Varun_GPGPU\ParallelHistogram\ParallelHistogram\ParallelHistogram\ParallelHistogramGPU.cu" 
+  
+  D:\Varun_GPGPU\ParallelHistogram\ParallelHistogram\ParallelHistogram>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\Varun_GPGPU\ParallelHistogram\ParallelHistogram\ParallelHistogram\x64\Debug\GPUErrors.cu.obj "D:\Varun_GPGPU\Common\Common\GPUErrors.cu" 
+  GPUErrors.cu
+  ParallelHistogramGPU.cu
+  CPUFunctions.cpp
+D:\Varun_GPGPU\ParallelHistogram\ParallelHistogram\ParallelHistogram\CPUFunctions.cpp(12,76): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=unsigned char
+          ]
+D:\Varun_GPGPU\ParallelHistogram\ParallelHistogram\ParallelHistogram\CPUFunctions.cpp(36,66): warning C4244: '=': conversion from '_Rep' to 'double', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+D:\Varun_GPGPU\ParallelHistogram\ParallelHistogram\ParallelHistogram\CPUFunctions.cpp(58,20): warning C4018: '<': signed/unsigned mismatch
+  ParallelHistogram.cpp
+  Generating Code...
+  ParallelHistogram.vcxproj -> D:\Varun_GPGPU\ParallelHistogram\ParallelHistogram\x64\Debug\ParallelHistogram.exe
