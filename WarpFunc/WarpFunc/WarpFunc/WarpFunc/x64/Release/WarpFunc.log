@@ -1,0 +1,19 @@
+﻿  Compiling CUDA source file ..\..\..\Common\Common\GPUErrors.cu...
+  Compiling CUDA source file GPUOddCounts_warpPrim.cu...
+  Compiling CUDA source file GPUOddsCount_Shared.cu...
+  
+  
+  D:\Varun_GPGPU\WarpFunc\WarpFunc\WarpFunc>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc143.pdb /FS   /MD " -o D:\Varun_GPGPU\WarpFunc\WarpFunc\WarpFunc\x64\Release\GPUOddCounts_warpPrim.cu.obj "D:\Varun_GPGPU\WarpFunc\WarpFunc\WarpFunc\GPUOddCounts_warpPrim.cu" 
+  D:\Varun_GPGPU\WarpFunc\WarpFunc\WarpFunc>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc143.pdb /FS   /MD " -o D:\Varun_GPGPU\WarpFunc\WarpFunc\WarpFunc\x64\Release\GPUOddsCount_Shared.cu.obj "D:\Varun_GPGPU\WarpFunc\WarpFunc\WarpFunc\GPUOddsCount_Shared.cu" 
+  
+  D:\Varun_GPGPU\WarpFunc\WarpFunc\WarpFunc>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc143.pdb /FS   /MD " -o D:\Varun_GPGPU\WarpFunc\WarpFunc\WarpFunc\x64\Release\GPUErrors.cu.obj "D:\Varun_GPGPU\Common\Common\GPUErrors.cu" 
+  GPUErrors.cu
+  GPUOddsCount_Shared.cu
+  GPUOddCounts_warpPrim.cu
+  functions.cpp
+  WarpFunc.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 35 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  WarpFunc.vcxproj -> D:\Varun_GPGPU\WarpFunc\WarpFunc\x64\Release\WarpFunc.exe
