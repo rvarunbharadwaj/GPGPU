@@ -1,0 +1,30 @@
+﻿  Compiling CUDA source file Prob4GPU.cu...
+  Compiling CUDA source file ..\..\..\Common\Common\GPUErrors.cu...
+  
+  D:\Varun_GPGPU\Prob4-1\Prob4\Prob4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc143.pdb /FS   /MD " -o D:\Varun_GPGPU\Prob4-1\Prob4\Prob4\x64\Release\Prob4GPU.cu.obj "D:\Varun_GPGPU\Prob4-1\Prob4\Prob4\Prob4GPU.cu" 
+  
+  D:\Varun_GPGPU\Prob4-1\Prob4\Prob4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc143.pdb /FS   /MD " -o D:\Varun_GPGPU\Prob4-1\Prob4\Prob4\x64\Release\GPUErrors.cu.obj "D:\Varun_GPGPU\Common\Common\GPUErrors.cu" 
+  GPUErrors.cu
+  Prob4GPU.cu
+D:\Varun_GPGPU\Prob4-1\Prob4\Prob4\Prob4GPU.cu(48): warning C4244: '=': conversion from '_Rep' to 'double', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  functions.cpp
+D:\Varun_GPGPU\Prob4-1\Prob4\Prob4\functions.cpp(11,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Varun_GPGPU\Prob4-1\Prob4\Prob4\functions.cpp(14,68): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Varun_GPGPU\Prob4-1\Prob4\Prob4\functions.cpp(20,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Varun_GPGPU\Prob4-1\Prob4\Prob4\functions.cpp(29,12): warning C4129: 'g': unrecognized character escape sequence
+  Prob4.cpp
+  Prob4CPU.cpp
+D:\Varun_GPGPU\Prob4-1\Prob4\Prob4\Prob4CPU.cpp(36,66): warning C4244: '=': conversion from '_Rep' to 'double', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 169 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Prob4.vcxproj -> D:\Varun_GPGPU\Prob4-1\Prob4\x64\Release\Prob4.exe
